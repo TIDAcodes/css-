@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            max-width: 960px;
+            margin: 0 auto;
+            padding:  9%;
+            height: 100vh;
+            background-color: rgb(249, 240, 255);
+            background-image: url(images/bg.svg);
+            background-repeat: no-repeat;
+        }
+        .faq{
+            width: 75%;
+            background-color: white;
+            margin: auto;
+            padding: 40px;
+            border-radius: 10px;
+            color: rgb(47, 21, 51);
+            padding-bottom: 20px;
+            box-shadow: 0px 8px 16px 0 rgb(0, 0, 0, 0.2);
+        }
+        #title{
+            display: flex;
+            gap: 15px;
+        }
+        #title img{
+            margin-top: -16px;
+            width: 28px;
+        }
+        #title h3{
+            font-size: 35px;
+            margin-bottom: 15px;
+        }
+        #content{
+            padding: 15px;
+            margin-bottom: 5px;
+            border-bottom: 1px solid #ebebeb;
+        }
+        #content:last-child{
+            border-bottom: 0;
+            margin-bottom: 0;
+        }
+        #content p{
+            margin-top: 20px;
+            color: hsl(292, 16%, 49%);
+            font-size: 16px;
+        }
+        #content h4{
+            line-height: 1.5;
+        }
+        #content img{
+            margin-top: -5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="faq content">
+            <div id="title">
+                <img src="images/icon-star.svg" alt="">
+                <h3>FAQ<small>s</small></h3>
+            </div>
+            <div id="content">
+             <h4>What is Frontend Mentor, and how will it help me?<img src="images/icon-minus.svg" alt="" style="float: right; "></h4>
+                <p>Fronted Mentor offers realistic coding challenges to help developers improve their frontend coding skills with projects in .HTML, CSS, JavaScript. It's suitable for all levels and ideal for portfolio building.</p>
+            </div>
+
+            <div id="content">
+                <h4>Is Frontend Mentor free? <img src="images/icon-plus.svg" alt="" style="float: right;"></h4>
+                
+            </div>
+            <div id="content">
+                <h4>Can i use Frontend Mentor projects in my portfolio? <img src="images/icon-plus.svg" alt="" style="float: right;"></h4>
+                   
+            </div>
+            <div id="content">
+                <h4>How can i get help if i'm stuck on a challenge? <img src="images/icon-plus.svg" alt="" style="float: right;"></h4>
+                  
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
